@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(pic/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 76%;
+    display: flex;
+    margin: auto;
+    padding: 15px ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: 7%;
+}
+
+ul{
+    margin-top: -3%;
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 55px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(241, 244, 244);
+    margin-top: -5%;
+    margin-right: 27%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    
+    margin-right: 25%;
+    margin-top: 2%;
+    float:right;
+    color:white;
+}
+
+.info h1{
+    font-size: 85px;
+    color: rgb(251, 248, 246);
+}
+
+.info h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    left: 120px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 170%;
+    left: 27%;
+    transform: translate(-65%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 43%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #efefef;
+}
+
+.icons {
+    text-align: center; /* Align the icons to the center horizontally */
+    position: absolute;
+    bottom: 50px; /* Add a margin of 10px from the bottom */
+    width: 100%; /* Ensure the icons container spans the full width */
+}
+
+.icons ion-icon {
+    display: inline-block; /* Make the icons behave as inline-block elements */
+    margin: 0 25px; /* Adjust the horizontal margin between icons as needed */
+    color: #fefcfc;
+    font-size: 40px;
+    transition: .4s ease;
+}
+
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+    transform: rotate(270deg);
+    font-size: 15px;
+    margin-right: 20px;
+    margin-bottom:350px;}
