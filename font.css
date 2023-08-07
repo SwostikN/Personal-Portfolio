@@ -1,0 +1,56 @@
+.fontc{
+    color:aliceblue;
+    
+
+
+}
+.main{
+    padding-left: 20px;
+}
+
+
+.navbar{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 15px ;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.navbar .logo{
+    width: 200px;
+    height:200px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: 7%;
+}
+
+
+
+ul{
+    margin-top: -3%;
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 55px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(241, 244, 244);
+    margin-top: -5%;
+    margin-right: 27%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}

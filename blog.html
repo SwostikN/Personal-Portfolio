@@ -6,6 +6,9 @@
     <title>BLOG</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
 <body>
     <div class="main">
         <div class="navbari">
@@ -16,9 +19,87 @@
                 <li><a href="resume.html">ABOUT</a></li>
                 <li><a href="gallery.html">GALLERY</a></li>
                 <li><a href="blog.html">BLOG</a></li>
-                <li><a href="homework/html/portfolio.html">PORTFOLIO</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
             </ul>
         </div>
+        <div class="title">
+            <h2 align="center">
+                MY BLOG
+            </h2>
+            <hr class="custom-hr">
+        </div>
+        <style>
+            .container {
+              display: flex;
+              justify-content: center; /* Center the container horizontally */
+                margin: 0 auto; 
+                color: rgb(255, 255, 255);
+            }
+          
+            .box {
+                width: 250px; /* Adjust the width as needed */
+                padding: 20px;
+                border: 0px solid #090909;
+                margin: 10px; /* Adjust the margin as needed */
+                margin-top: -20px;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                background-color: #272424;
+    transition: transform 0.3s, color 0.3s, box-shadow 0.3s;
+            }
+        
+
+.box:hover {
+    transform: translateY(-20px);
+    color: rgb(255, 255, 255);
+    background-color: #171716e0;
+    box-shadow: 0 10px 20px rgb(236, 124, 5);
+}
+
+
+          </style>
+          <body><div class="container">
+            <div class="box">
+                
+                <img src="pic/1.jpg" alt="Image of kalinchowk" height="250px" width="250px">
+                <br> <br>
+                <h3><font color="white">Trip to Kalinchowk</font></h3> <br>
+                <p>"Where mountain serenity embraced my soul and memories etched in the snow."  </p><br>
+                <h6> <font color="orange">2080/04/02 </font></h6> <br>
+                <div class="read-more-box">
+                    <a href="kalinchowk.html" style="color: white;">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pic/6.jpg" alt="Image of Annapurna Base Camp" height="250px" width="250px">
+                <br><br>
+                <h3><font color="white">Hike to ABC</font></h3> <br>
+                <p>"Where Every Step Unveiled a World of Majesty." </p><br>
+                <h6> <font color="orange">2079/09/15 </font></h6> <br>
+                <div class="read-more-box">
+                    <a href="abc.html" style="color: white;">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="pic/5.png" alt="Image of pokhara" height="250px" width="250px">
+                <br><br>
+                <h3><font color="white"> Journying Pokhara </font></h3> <br>
+                <p>"Where Culture and Nature Embrace, Leaving Me Forever Transformed."  </p><br>
+                <h6> <font color="orange">2074/01/09 </font></h6> <br>
+                <div class="read-more-box">
+                    <a href="pokhara.html" style="color: white;">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footeri">
+            <h5> &copy; SwostikNepal &nbsp; &nbsp; &nbsp; <a href="https://github.com/SwostikN" target="_blank"> Github </a> 
+                
+            </h5>
+           </div>
 </body>
 </html>
